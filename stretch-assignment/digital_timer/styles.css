@@ -12,3 +12,24 @@ body {
 .redDigit {
   color: red;
 }
+
+.button {
+  height: 40px;
+  width: 160px;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  margin-left: 1rem;
+}
+#startButton {
+  background-color: aquamarine;
+}
+
+#startButton.buttonDisabled {
+  cursor: not-allowed;
+  color: #ccc;
+  background-color: beige;
+}
+.resetButton {
+  background-color: blue;
+  color:white;
+}
